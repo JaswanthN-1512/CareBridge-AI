@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+!.env.example
+!*.env.example
+# Environment / Secrets
+.env
+.env.local
+*.env
+*.env.local
+
+# Allow safe example environment files
+!.env.example
+!*.env.example
+
+# Vector Stores & Cache
+.chroma/
+chroma_db/
+faiss_index/
+data/uploads/
+tmp/
+*.faiss
+*.pkl
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+.npm
+dist/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Editor & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
